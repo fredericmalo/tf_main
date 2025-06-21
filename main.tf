@@ -15,6 +15,7 @@ module "hello_world" {
   # Variables à passer au module
   bucket_name_prefix = "terraform-hello-world"
   environment        = "dev"
+  secret_token       = "ghp_1234567890abcdef1234567890abcdef1234"
   tags = {
     Project     = "Terraform Demo"
     Department  = "DevOps"

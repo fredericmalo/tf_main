@@ -9,7 +9,6 @@ provider "aws" {
 
 # Appel du module personnalisé hello_world
 module "hello_world" {
-  #source = "./modules/hello_world"
   source = "git::https://github.com/fredericmalo/tf_hello_world/"
 
   # Variables à passer au module

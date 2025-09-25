@@ -6,7 +6,7 @@ provider "aws" {
   region = "us-west-2"
   # Le profil sera automatiquement récupéré depuis ~/.aws/credentials
 }
-
+ 
 # Appel du module personnalisé hello_world
 module "hello_world" {
   source = "git::https://github.com/fredericmalo/tf_hello_world/"
